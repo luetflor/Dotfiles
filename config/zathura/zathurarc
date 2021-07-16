@@ -1,0 +1,6 @@
+set default-bg "#2E3440"
+set recolor
+set recolor-lightcolor "#2E3440"
+set inputbar-bg "#2E3440"
+set statusbar-bg "#2E3440"
+set selection-clipboard clipboard

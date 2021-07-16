@@ -1,0 +1,24 @@
+snippet begin "begin{} / end{}" b
+\begin{$1}
+	$0
+\end{$1}
+endsnippet
+
+snippet align "begin{align} / end{align}" b
+\begin{align}
+	$1
+\end{align}
+endsnippet
+
+snippet frac "\frac{}{}"
+\frac{$1}{$2}
+endsnippet
+
+snippet figure "\begin{figure}...\end{figure}"
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=$2\linewidth]{Bilder/$1.png}
+	\caption{$4}
+	\label{$3}
+\end{figure}
+endsnippet
